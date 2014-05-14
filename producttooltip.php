@@ -203,7 +203,7 @@ class ProductToolTip extends Module
 					array(
 						'type' => 'switch',
 						'label' => $this->l('Last order date'),
-						'desc' => $this->l('Display the last time the product has been ordered?'),
+						'desc' => $this->l('Display the last time the product has been ordered'),
 						'name' => 'PS_PTOOLTIP_DATE_ORDER',
 						'values' => array(
 							array(
@@ -221,7 +221,7 @@ class ProductToolTip extends Module
 					array(
 						'type' => 'switch',
 						'label' => $this->l('Added to a cart'),
-						'desc' => $this->l('If the product has not been ordered yet, display the last time the product has been added to a cart?'),
+						'desc' => $this->l('If the product has not been ordered yet, display the last time the product has been added to a cart'),
 						'name' => 'PS_PTOOLTIP_DATE_CART',
 						'values' => array(
 							array(
